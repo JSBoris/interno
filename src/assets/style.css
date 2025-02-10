@@ -1,0 +1,828 @@
+
+  
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+/* Общие стили */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Serif Display', serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Контейнер для всех блоков с шириной 1200px */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрируем все блоки */
+}
+
+/* Блоки с шириной 1200px */
+.header, .banner, .content, .news, .footer {
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* Блок для info, который должен быть на весь экран */
+.info-wrapper {
+    margin-top: 96px;
+    width: 100%;
+    
+}
+
+/* .info {
+    max-width: 1920px; 
+    margin: 0 auto; 
+    
+} */
+
+/* Стили для Хедера логотипа и ссылок навигационного меню */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    margin-top: 44px;
+    margin-bottom: 57px;
+    /* border: solid 1px black; */
+}
+
+.img-logo {
+    height: 45px;
+    width: 177px;
+}
+
+.a_top_nav {
+    font-family: "Jost", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    text-align: center;
+    color: #292f36;
+    margin-left: 50px;
+}
+.a_top_nav:hover {
+    text-decoration: underline;
+    text-decoration-color: #292f36;
+    text-underline-offset: 3px;
+}
+
+/* Стили Баннера и надписи и кнопки по верх баннера */
+
+.banner {
+    background-image: url('./img/Banner4x.jpg');
+    background-size: cover;
+    /* background-position: center; */
+    width: 1200px;
+    height: 758px;
+    position: relative;
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%; /* Центрируем по вертикали */
+    left: 8%; /* Смещение от левого края */
+    transform: translateY(-50%); /* Смещаем текст точно по центру вертикально */
+    max-width: 600px; /* Ограничиваем ширину текста */
+}
+
+.h1-banner{
+    font-family: "Jost", serif;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 125%;
+    color: #292f36; 
+    margin-bottom: 20px;
+}
+
+.p-banner {
+    font-family: "Jost", serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #4d5053;
+    margin-bottom: 20px;
+}
+
+.a-banner {
+   
+    display: block;
+    border-radius: 18px;
+    /* padding: 26px 49px 26px 48px; */
+    width: 182px;
+    height: 75px;
+    box-shadow: 0 10px 20px 0 rgba(192, 192, 192, 0.35);
+    background: #292f36;
+
+    font-family: "Jost", serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.a-banner svg {
+    stroke-width: 2px;
+    stroke: #cda274;
+    margin-left: 10px;
+}
+
+.content-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 96px;
+    margin-bottom: 93px;
+}
+
+.h2_content_text {
+    font-family: "Jost", serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+    color: #292f36;
+    margin-bottom: 30px;
+}
+
+.p_content_text {
+    font-family: "Jost", serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #4d5053;
+    max-width: 485px;
+}
+
+/* Стили для сетки карточек контента и для карточек*/
+
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.item:nth-child(odd) {
+    justify-self: start; /* Выравниваем элементы в левой колонке по левому краю */
+  }
+  
+.item:nth-child(even) {
+    justify-self: end; /* Выравниваем элементы в правой колонке по правому краю */
+  }
+
+.card-br-tr {
+    height: 619px;
+    width: 548px;
+    border-top-right-radius: 70px;
+    /* border: solid 1px black; */
+    overflow: hidden;
+}
+
+.content_card_text_box {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 90px;
+}
+
+.content_card_h4 {
+    font-family: "Jost", serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+    color: #292f36;
+}
+
+.content_card_p {
+    font-family: "Jost", serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #4d5053;
+}
+
+.content_card_a{
+    display: block;
+    height: 70px;
+    width: 70px;
+}
+
+.card-br-tl {
+    height: 619px;
+    width: 548px;
+    border-top-left-radius: 70px;
+    /* border: solid 1px black; */
+    overflow: hidden;
+}
+
+.card-br-br {
+    margin-top: 56px;
+    height: 619px;
+    width: 548px;
+    overflow: hidden;
+}
+.card-br-br img {
+    border-bottom-right-radius: 20%;
+}
+
+.card-br-bl {
+    margin-top: 56px;
+    height: 619px;
+    width: 548px;
+    overflow: hidden;
+}
+.card-br-bl img {
+    border-bottom-left-radius: 20%;
+}
+
+/* Стили для блока с информацией с цифрами */
+
+.info-wrapper {
+    background-color: rgba(244, 240, 236, 1);
+    height: 457px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.info_data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+
+.info span {
+    font-family: "Jost", serif;
+    font-weight: 400;
+    font-size: 85px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+    color: #cda274;
+}
+.info p {
+    font-family: "Jost", serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #4d5053;
+}
+
+.info div:not(:last-child) {
+    border-right: solid 1px #cda274;
+}
+
+/* Стили для Блока новостей и статей + карточки */
+
+.news {
+    margin-top: 96px;
+}
+.news h2 {
+    font-family: "Jost", serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #292f36;
+}
+.news p {
+    font-family: "Jost", serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #4d5053;   
+}
+
+.news_card_wrapper {
+    display: flex;
+    justify-content: space-between;    
+}
+
+.news-card {
+    margin-top: 52px;
+}
+
+.card {
+    border: 1px solid #e7e7e7;
+    border-radius: 62px;
+    padding: 21px;    
+    width: 382px;
+    height: 521px;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 20px;
+  }
+  
+.card-image {
+    position: relative;
+    border-top-left-radius: 52px;
+    border-top-right-radius: 52px;
+    overflow: hidden;
+}
+  
+.card-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+  
+.card-label {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    height: 41px;
+    border-radius: 8px 8px 8px 0;
+    background: #fff;
+    font-family: "Jost", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #4d5053;   
+    display: flex;
+    align-items: center; 
+    padding: 10px;
+}
+  
+.card-content {
+    margin-top: 21px;
+    display: flex;
+    flex-direction: column;    
+}
+  .flex-helper {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+  
+.card-content h2 {
+    font-weight: 400;
+    font-family: "Jost", serif;
+    text-align: left;
+    font-size: 25px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+    color: #292f36; 
+    
+       
+}
+  
+.card-content p {
+    font-family: "Jost", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #4d5053;    
+}
+  
+.card-button {
+    width: 52px;
+    height: 53px;
+}
+
+   /* Футер */
+
+.footer {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.foot-box {
+    height: 400px;
+    width: 398px;
+    /* border: solid 1px #292f36; */
+
+}
+
+.fb_logo_block img {
+    height: 50px;
+}
+
+.social_icons_box {
+    margin-top: 31px;
+}
+
+.social_icons_box a {
+    color: #292f36;
+    padding-right: 20px;
+}
+
+.center {
+    display: flex;
+    justify-content: space-evenly;
+}
+.center ul {
+    list-style: none;
+}
+.center h5 {
+    font-family: "Jost", serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 125%;
+    color: #292f36;    
+}
+.center a {
+    font-family: "Jost", serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 300%;
+    letter-spacing: 0.01em;
+    color: #4d5053;
+}
+.center a:hover {
+    text-decoration: underline;
+    text-decoration-color: #292f36;
+    text-underline-offset: 3px;    
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+}
+.right h5  {
+    font-family: "Jost", serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 125%;
+    color: #292f36;     
+}
+.right p {
+    font-family: "Jost", serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #4d5053;
+    margin-top: 20px;  
+}
+.number {
+    font-family: "Jost", serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #4d5053;
+    line-height: 300%;    
+}
+
+
+
+/* _________________________________Страница Новсти и Блог____________________________________*/
+
+.nb_banner {
+    width: 100%;
+    height: 452px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+}
+
+.nb_intro {
+    width: 503px;
+    height: 274px;
+    position: absolute; /* Абсолютное позиционирование */
+    top: 178px; /* Отступ сверху */
+    left: 50%; /* Сдвиг в центр по горизонтали */
+    transform: translateX(-50%); /* Центровка относительно своей ширины */
+    background-color: #fff; /* Для примера */
+    border-radius: 37px 37px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 78px;
+}
+
+/* Блок последних статей и новостей и постов */
+
+.latest_post {
+    margin-top: 104px;
+}
+
+.latest_post h1 {
+    font-family: "Jost", serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+    color: #292f36;
+}
+
+.latest_post_img {
+    width: 569px;
+    height: 478px;
+    border-radius: 52px;
+}
+
+.latest_post_container {
+    position: relative;
+    margin-top: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1200px;
+    width: 100%;
+    border: 1px solid #e7e7e7;
+    border-radius: 62px;
+    padding: 22px;
+    width: 1201px;
+    height: 584px;
+}
+
+.latest_post_content {
+    align-self: start;
+}
+
+.latest_post_content h3 {
+    font-family: "DM Serif Display";
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+    color: #292f36;
+    margin-bottom: 22px;
+}
+
+.latest_post_content span {
+    display: block;
+    margin-top: 50px;
+    font-family: "Jost", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #4d5053;
+}
+
+.latest_post_content a {
+    position: absolute;
+    bottom: 22px;
+    right: 56px;
+}
+
+
+/* Стили для Блока новостей и статей */
+
+.news_and_blogs {
+    margin-top: 88px;
+    margin-bottom: 212px;
+}
+
+.news_and_blogs h1 {
+    font-family: "Jost", serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+    color: #292f36;
+}
+
+.news_card_wrapper_news_blogs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+
+/* Стили для Blog Details */
+
+.blog_details_content_wrapper {
+    margin-top: 80px;
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.article_container {
+    /* margin-top: 21px; */
+    max-width: 804px;
+    width: 100%;
+    margin-bottom: 21px;
+}
+
+.article_img {
+    width: 799px;
+    height: 539px;
+    border-radius: 50px;  
+    margin-bottom: 46px;  
+}
+
+.article_img_date {
+    display: flex;
+    justify-content: space-between;    
+}
+.article_img_date span {
+    font-family:  "Jost", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #4d5053;
+}
+.article_img_date a {
+    font-family:  "Jost", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #4d5053;    
+}
+
+.p_article {
+    margin-top: 45px;
+    font-family:  "Jost", serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #4d5053;
+}
+
+.article_quote {
+    margin-top: 35px;
+    margin-bottom: 27px;
+    border-radius: 50px;
+    padding: 53px 227px;
+    width: 799px;
+    height: 267px;
+    background: #f4f0ec;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.article_quote_span {
+    font-family: "DM Serif Display";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 200px;
+    line-height: 80%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #cda274;
+    transform: rotate(180deg);
+    display: block;
+    height: 80px;
+}
+
+.article_quote p {
+    margin-top: 20px;
+    font-family: "DM Serif Display";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #cda274;
+}
+
+.article_h2 {
+    font-family: "DM Serif Display";
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+    color: #292f36;
+}
+
+/* .article_ol li::marker{
+    font-family: "DM Serif Display";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+    color: #cda274;
+}
+.article_ol li {
+    font-family:  "Jost", serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #4d5053;
+} */
+ol {
+    list-style: none; /* Убирает стандартные маркеры, включая цифры */
+    padding-left: 0; /* Убирает отступ для списка */
+}
+
+ol li {
+    counter-increment: item; /* Создаем собственную нумерацию */
+    position: relative;
+    padding-left: 20px; /* Отступ слева для нумерации */
+    font-family:  "Jost", serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #4d5053;
+}
+
+ol li::before {
+    content: counter(item) ""; /* Вставляем цифры перед элементом */
+    position: absolute;
+    left: 0;
+    top: 3px;
+    font-family: "DM Serif Display";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+    color: #cda274;
+}
+
+.article_img2 {
+    margin-top: 44px;
+    border-radius: 50px;
+    width: 799px;
+    height: 365px;
+}
+
+/* стили кнопок Тегов  */
+
+.tag_button h4 {
+    font-family: "DM Serif Display";
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+    color: #292f36;
+}
+
+.tag_button > button {
+    font-family:  "Jost", serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #292f36;
+    border-radius: 10px;
+    padding: 9px 30px;
+    border-radius: 10px;
+    padding: 9px 30px;
+    background: #f4f0ec;
+    border: none;
+    margin: 10px;
+}
+
+.tag_button > button:hover {
+    background: #292f36;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
