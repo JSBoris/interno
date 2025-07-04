@@ -4,7 +4,7 @@
     const cards = [
   {
     id: 1,
-    image: '/public/img/Newscard1.jpg',
+    image: '/img/Newscard1.jpg',
     description: 'Дизайн Кухни',
     title: 'Создадим лучший макет перепланировки',
     date: '22 Декабря 2024',
@@ -12,7 +12,7 @@
   },
   {
     id: 2,
-    image: '/public/img/Newscard2.jpg',
+    image: '/img/Newscard2.jpg',
     description: 'Дизайн Дома',
     title: 'Лучшие интерьерные идеи для дома',
     date: '22 Декабря 2024',
@@ -20,7 +20,7 @@
   },
   {
     id: 3,
-    image: '/public/img/Newscard3.jpg',
+    image: '/img/Newscard3.jpg',
     description: 'Дизайн Офиса',
     title: 'Лучшие идеи интерьера для офиса',
     date: '22 Декабря 2024',
@@ -40,7 +40,7 @@
         </div>
         <div class="content-grid">
             <div class="card-br-tr item ">
-                <img src="/public/img/Card1.png" alt="Современная Кухня" class="content_card_img">
+                <img src="/img/Card1.png" alt="Современная Кухня" class="content_card_img">
                 <div class="content_card_text_box">
                     <div class="flex_div_for_tetx">
                         <h4 class="content_card_h4">Современная кухня</h4>
@@ -66,7 +66,7 @@
 
             </div>
             <div class="card-br-tl item ">
-                <img src="/public/img/Card2.png" alt="Современная Кухня" class="content_card_img">
+                <img src="/img/Card2.png" alt="Современная Кухня" class="content_card_img">
                 <div class="content_card_text_box">
                     <div class="flex_div_for_tetx">
                         <h4 class="content_card_h4">Современная кухня</h4>
@@ -92,7 +92,7 @@
 
             </div>
             <div class="card-br-br item ">
-                <img src="/public/img/Card3.png" alt="Современная Кухня" class="content_card_img">
+                <img src="/img/Card3.png" alt="Современная Кухня" class="content_card_img">
                 <div class="content_card_text_box">
                     <div class="flex_div_for_tetx">
                         <h4 class="content_card_h4">Современная кухня</h4>
@@ -118,7 +118,7 @@
 
             </div>
             <div class="card-br-bl item ">
-                <img src="/public/img/Card4.png" alt="Современная Кухня" class="content_card_img">
+                <img src="/img/Card4.png" alt="Современная Кухня" class="content_card_img">
                 <div class="content_card_text_box">
                     <div class="flex_div_for_tetx">
                         <h4 class="content_card_h4">Современная кухня</h4>

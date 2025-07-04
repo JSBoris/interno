@@ -10,7 +10,7 @@ defineProps({
     },
     bannerImage: {
         type: String,
-        default: '/public/img/nb_Banner.jpg'
+        default: '/img/nb_Banner.jpg'
     }
 })
 </script>

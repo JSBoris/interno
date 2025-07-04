@@ -11,7 +11,7 @@ import Footer from '../components/layout/footer.vue'
     <Header />
     <BannerPages 
     :showIntro="false" 
-    bannerImage="/public/img/blog_detalis_Banner.jpg"
+    bannerImage="/img/blog_detalis_Banner.jpg"
     
     />
     <BlogDetalisMain />

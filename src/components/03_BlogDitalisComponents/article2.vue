@@ -6,7 +6,7 @@
     <div class="article_container">
         <h2 class="h2_content_text">Функциональный зал</h2>
         <div class="article_img_conteiner">
-            <img src="/public/img/articleHall.jpg" alt="Кухня" class="article_img">
+            <img src="/img/articleHall.jpg" alt="Кухня" class="article_img">
             <div class="article_img_date">
                 <span>26 Декабрь,2022 </span>
                 <div class="article_img_link">
@@ -50,7 +50,7 @@
             <li>С того времени этот, похожий на латинский, текст стал стандартом в печатной промышленности для примеров
                 шрифтов и текстов.</li>
         </ol>
-        <img src="/public/img/articlePhoto2.jpg" alt="Photo" class="article_img2">
+        <img src="/img/articlePhoto2.jpg" alt="Photo" class="article_img2">
         <p class="p_article">
             В своей статье от 1994-го года журнал «Before & After» отследил фразу «Lorem ipsum ...» до философского
             трактата Цицерона О пределах добра и зла, написанного в 45 году до нашей эры на латинском языке.

@@ -6,7 +6,7 @@
     <div class="article_container">
         <h2 class="h2_content_text">Уютный кабинет</h2>
         <div class="article_img_conteiner">
-            <img src="../../../public/img/articleOffice.jpg" alt="Кухня" class="article_img">
+            <img src="/img/articleOffice.jpg" alt="Кухня" class="article_img">
             <div class="article_img_date">
                 <span>26 Декабрь,2022 </span>
                 <div class="article_img_link">

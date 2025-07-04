@@ -11,7 +11,7 @@
     <BannerPages 
         :showIntro="true"
         bannerTitle="Наш проект"
-        bannerImage="/public/Project_page_img/Project_Banner.jpg"
+        bannerImage="/Project_page_img/Project_Banner.jpg"
     />
     <ProjectContent />
     <Footer />

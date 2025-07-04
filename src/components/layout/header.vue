@@ -9,7 +9,7 @@
     <div class="header">
       <div class="logo">
         <router-link to="/">
-          <img src="/public/img/Logo.jpg" alt="logo" class="img-logo">
+          <img src="/img/Logo.jpg" alt="logo" class="img-logo">
         </router-link>
       </div>
       <div class="top-nav">
