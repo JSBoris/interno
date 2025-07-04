@@ -83,7 +83,7 @@ a {
 /* Стили Баннера и надписи и кнопки по верх баннера */
 
 .banner {
-    background-image: url('./img/Banner4x.jpg');
+    background-image: url('/img/Banner4x.jpg');
     background-size: cover;
     /* background-position: center; */
     width: 1200px;

@@ -4,7 +4,7 @@ import Card from '../common/card.vue';
 const cards = [
     {
         id: 1,
-        image: '/public/img/Newscard1.jpg',
+        image: '/img/Newscard1.jpg',
         description: 'Дизайн Кухни',
         title: 'Создадим лучший макет перепланировки',
         date: '22 Декабря 2024',
@@ -12,7 +12,7 @@ const cards = [
     },
     {
         id: 2,
-        image: '/public/img/Newscard2.jpg',
+        image: '/img/Newscard2.jpg',
         description: 'Дизайн Дома',
         title: 'Лучшие интерьерные идеи для дома',
         date: '10 Января 2025',
@@ -20,7 +20,7 @@ const cards = [
     },
     {
         id: 3,
-        image: '/public/img/Newscard3.jpg',
+        image: '/img/Newscard3.jpg',
         description: 'Дизайн Офиса',
         title: 'Лучшие идеи интерьера для офиса',
         date: '22 Января 2025',
@@ -28,7 +28,7 @@ const cards = [
     },
     {
         id: 4,
-        image: '/public/img/Newscard4.jpg',
+        image: '/img/Newscard4.jpg',
         description: 'Спальня',
         title: 'Как создать место для отдыха',
         date: '7 Декабря 2024',
@@ -36,7 +36,7 @@ const cards = [
     },
     {
         id: 5,
-        image: '/public/img/Newscard5.jpg',
+        image: '/img/Newscard5.jpg',
         description: 'Балкон',
         title: 'Идеи для маленького пространства',
         date: '15 Ноября 2024',
@@ -44,7 +44,7 @@ const cards = [
     },
     {
         id: 6,
-        image: '/public/img/Newscard6.jpg',
+        image: '/img/Newscard6.jpg',
         description: 'Рабочий кабинет',
         title: 'Функциональность и комфорт',
         date: '18 Октября 2024',
@@ -57,7 +57,7 @@ const cards = [
     <div class="latest_post">
         <h1>Последние пост</h1>
         <div class="latest_post_container">
-            <img src="../../../public/img/Latest_post_img.jpg" alt="" class="latest_post_img">
+            <img src="/img/Latest_post_img.jpg" alt="" class="latest_post_img">
             <div class="latest_post_content">
                 <h3>Low Cost Latest Invented Interior <br>
                     Designing Ideas</h3>
