@@ -13,7 +13,7 @@
     <Header />
     <BannerPages 
         :showIntro="false"
-        bannerImage="/public/img/Project_Details_Banner.jpg"
+        bannerImage="/img/Project_Details_Banner.jpg"
     />
     <ProjectDetailsMain />
     <Footer />
