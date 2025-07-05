@@ -8,9 +8,9 @@ export const useArticleStore = defineStore('articleStore', () => {
             title: 'Заголовок id 1',
             content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, tenetur assumenda voluptates mollitia consectetur dolore id beatae explicabo corporis ab corrupti natus qui perferendis? Suscipit debitis laboriosam aperiam ad modi.',
             images: [
-                '../public/project_page_img/slide_photo_1.jpg', 
-                '../public/project_page_img/slide_photo_2.jpg', 
-                '../public/project_page_img/slide_photo_3.jpg'
+                '/project_page_img/slide_photo_1.jpg', 
+                '/project_page_img/slide_photo_2.jpg', 
+                '/project_page_img/slide_photo_3.jpg'
             ]
         },
         {
@@ -18,9 +18,9 @@ export const useArticleStore = defineStore('articleStore', () => {
             title: 'Заголовок id 2',
             content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, tenetur assumenda voluptates mollitia consectetur dolore id beatae explicabo corporis ab corrupti natus qui perferendis? Suscipit debitis laboriosam aperiam ad modi.',
             images: [
-                '../public/project_page_img/slide_photo_1.jpg', 
-                '../public/project_page_img/slide_photo_2.jpg', 
-                '../public/project_page_img/slide_photo_3.jpg'
+                '/project_page_img/slide_photo_1.jpg', 
+                '/project_page_img/slide_photo_2.jpg', 
+                '/project_page_img/slide_photo_3.jpg'
             ]
         },
         {
@@ -28,9 +28,9 @@ export const useArticleStore = defineStore('articleStore', () => {
             title: 'Заголовок id 3',
             content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, tenetur assumenda voluptates mollitia consectetur dolore id beatae explicabo corporis ab corrupti natus qui perferendis? Suscipit debitis laboriosam aperiam ad modi.',
             images: [
-                '../public/project_page_img/slide_photo_1.jpg', 
-                '../public/project_page_img/slide_photo_2.jpg', 
-                '../public/project_page_img/slide_photo_3.jpg'
+                '/project_page_img/slide_photo_1.jpg', 
+                '/project_page_img/slide_photo_2.jpg', 
+                '/project_page_img/slide_photo_3.jpg'
             ]
         },
         {
@@ -38,9 +38,9 @@ export const useArticleStore = defineStore('articleStore', () => {
             title: 'Заголовок id 4',
             content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, tenetur assumenda voluptates mollitia consectetur dolore id beatae explicabo corporis ab corrupti natus qui perferendis? Suscipit debitis laboriosam aperiam ad modi.',
             images: [
-                '../public/project_page_img/slide_photo_1.jpg', 
-                '../public/project_page_img/slide_photo_2.jpg', 
-                '../public/project_page_img/slide_photo_3.jpg'
+                '/project_page_img/slide_photo_1.jpg', 
+                '/project_page_img/slide_photo_2.jpg', 
+                '/project_page_img/slide_photo_3.jpg'
             ]
         },
         {
@@ -48,9 +48,9 @@ export const useArticleStore = defineStore('articleStore', () => {
             title: 'Заголовок id 5',
             content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, tenetur assumenda voluptates mollitia consectetur dolore id beatae explicabo corporis ab corrupti natus qui perferendis? Suscipit debitis laboriosam aperiam ad modi.',
             images: [
-                '../public/project_page_img/slide_photo_1.jpg', 
-                '../public/project_page_img/slide_photo_2.jpg', 
-                '../public/project_page_img/slide_photo_3.jpg'
+                '/project_page_img/slide_photo_1.jpg', 
+                '/project_page_img/slide_photo_2.jpg', 
+                '/project_page_img/slide_photo_3.jpg'
             ]
         },
         {
@@ -58,9 +58,9 @@ export const useArticleStore = defineStore('articleStore', () => {
             title: 'Заголовок id 6',
             content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, tenetur assumenda voluptates mollitia consectetur dolore id beatae explicabo corporis ab corrupti natus qui perferendis? Suscipit debitis laboriosam aperiam ad modi.',
             images: [
-                '../public/project_page_img/slide_photo_1.jpg', 
-                '../public/project_page_img/slide_photo_2.jpg', 
-                '../public/project_page_img/slide_photo_3.jpg'
+                '/project_page_img/slide_photo_1.jpg', 
+                '/project_page_img/slide_photo_2.jpg', 
+                '/project_page_img/slide_photo_3.jpg'
             ]
         },
         {
@@ -68,9 +68,9 @@ export const useArticleStore = defineStore('articleStore', () => {
             title: 'Заголовок id 7',
             content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, tenetur assumenda voluptates mollitia consectetur dolore id beatae explicabo corporis ab corrupti natus qui perferendis? Suscipit debitis laboriosam aperiam ad modi.',
             images: [
-                '../public/project_page_img/slide_photo_1.jpg', 
-                '../public/project_page_img/slide_photo_2.jpg', 
-                '../public/project_page_img/slide_photo_3.jpg'
+                '/project_page_img/slide_photo_1.jpg', 
+                '/project_page_img/slide_photo_2.jpg', 
+                '/project_page_img/slide_photo_3.jpg'
             ]
         },
         {
@@ -78,9 +78,9 @@ export const useArticleStore = defineStore('articleStore', () => {
             title: 'Заголовок id 8',
             content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, tenetur assumenda voluptates mollitia consectetur dolore id beatae explicabo corporis ab corrupti natus qui perferendis? Suscipit debitis laboriosam aperiam ad modi.',
             images: [
-                '../public/project_page_img/slide_photo_1.jpg', 
-                '../public/project_page_img/slide_photo_2.jpg', 
-                '../public/project_page_img/slide_photo_3.jpg'
+                '/project_page_img/slide_photo_1.jpg', 
+                '/project_page_img/slide_photo_2.jpg', 
+                '/project_page_img/slide_photo_3.jpg'
             ]
         },
         {
@@ -88,9 +88,9 @@ export const useArticleStore = defineStore('articleStore', () => {
             title: 'Заголовок',
             content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, tenetur assumenda voluptates mollitia consectetur dolore id beatae explicabo corporis ab corrupti natus qui perferendis? Suscipit debitis laboriosam aperiam ad modi.',
             images: [
-                '../public/project_page_img/slide_photo_1.jpg', 
-                '../public/project_page_img/slide_photo_2.jpg', 
-                '../public/project_page_img/slide_photo_3.jpg'
+                '/project_page_img/slide_photo_1.jpg', 
+                '/project_page_img/slide_photo_2.jpg', 
+                '/project_page_img/slide_photo_3.jpg'
             ]
         },
         {
@@ -98,9 +98,9 @@ export const useArticleStore = defineStore('articleStore', () => {
             title: 'Заголовок',
             content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, tenetur assumenda voluptates mollitia consectetur dolore id beatae explicabo corporis ab corrupti natus qui perferendis? Suscipit debitis laboriosam aperiam ad modi.',
             images: [
-                '../public/project_page_img/slide_photo_1.jpg', 
-                '../public/project_page_img/slide_photo_2.jpg', 
-                '../public/project_page_img/slide_photo_3.jpg'
+                '/project_page_img/slide_photo_1.jpg', 
+                '/project_page_img/slide_photo_2.jpg', 
+                '/project_page_img/slide_photo_3.jpg'
             ]
         },
         {
@@ -108,9 +108,9 @@ export const useArticleStore = defineStore('articleStore', () => {
             title: 'Заголовок',
             content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, tenetur assumenda voluptates mollitia consectetur dolore id beatae explicabo corporis ab corrupti natus qui perferendis? Suscipit debitis laboriosam aperiam ad modi.',
             images: [
-                '../public/project_page_img/slide_photo_1.jpg', 
-                '../public/project_page_img/slide_photo_2.jpg', 
-                '../public/project_page_img/slide_photo_3.jpg'
+                '/project_page_img/slide_photo_1.jpg', 
+                '/project_page_img/slide_photo_2.jpg', 
+                '/project_page_img/slide_photo_3.jpg'
             ]
         },
         {
@@ -118,9 +118,9 @@ export const useArticleStore = defineStore('articleStore', () => {
             title: 'Заголовок',
             content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, tenetur assumenda voluptates mollitia consectetur dolore id beatae explicabo corporis ab corrupti natus qui perferendis? Suscipit debitis laboriosam aperiam ad modi.',
             images: [
-                '../public/project_page_img/slide_photo_1.jpg', 
-                '../public/project_page_img/slide_photo_2.jpg', 
-                '../public/project_page_img/slide_photo_3.jpg'
+                '/project_page_img/slide_photo_1.jpg', 
+                '/project_page_img/slide_photo_2.jpg', 
+                '/project_page_img/slide_photo_3.jpg'
             ]
         },
         {
@@ -128,9 +128,9 @@ export const useArticleStore = defineStore('articleStore', () => {
             title: 'Заголовок',
             content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, tenetur assumenda voluptates mollitia consectetur dolore id beatae explicabo corporis ab corrupti natus qui perferendis? Suscipit debitis laboriosam aperiam ad modi.',
             images: [
-                '../public/project_page_img/slide_photo_1.jpg', 
-                '../public/project_page_img/slide_photo_2.jpg', 
-                '../public/project_page_img/slide_photo_3.jpg'
+                '/project_page_img/slide_photo_1.jpg', 
+                '/project_page_img/slide_photo_2.jpg', 
+                '/project_page_img/slide_photo_3.jpg'
             ]
         },
         {
@@ -138,9 +138,9 @@ export const useArticleStore = defineStore('articleStore', () => {
             title: 'Заголовок',
             content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, tenetur assumenda voluptates mollitia consectetur dolore id beatae explicabo corporis ab corrupti natus qui perferendis? Suscipit debitis laboriosam aperiam ad modi.',
             images: [
-                '../public/project_page_img/slide_photo_1.jpg', 
-                '../public/project_page_img/slide_photo_2.jpg', 
-                '../public/project_page_img/slide_photo_3.jpg'
+                '/project_page_img/slide_photo_1.jpg', 
+                '/project_page_img/slide_photo_2.jpg', 
+                '/project_page_img/slide_photo_3.jpg'
             ]
         },
         {
@@ -148,9 +148,9 @@ export const useArticleStore = defineStore('articleStore', () => {
             title: 'Заголовок',
             content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, tenetur assumenda voluptates mollitia consectetur dolore id beatae explicabo corporis ab corrupti natus qui perferendis? Suscipit debitis laboriosam aperiam ad modi.',
             images: [
-                '../public/project_page_img/slide_photo_1.jpg', 
-                '../public/project_page_img/slide_photo_2.jpg', 
-                '../public/project_page_img/slide_photo_3.jpg'
+                '/project_page_img/slide_photo_1.jpg', 
+                '/project_page_img/slide_photo_2.jpg', 
+                '/project_page_img/slide_photo_3.jpg'
             ]
         },
         {
@@ -158,9 +158,9 @@ export const useArticleStore = defineStore('articleStore', () => {
             title: 'Заголовок',
             content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, tenetur assumenda voluptates mollitia consectetur dolore id beatae explicabo corporis ab corrupti natus qui perferendis? Suscipit debitis laboriosam aperiam ad modi.',
             images: [
-                '../public/project_page_img/slide_photo_1.jpg', 
-                '../public/project_page_img/slide_photo_2.jpg', 
-                '../public/project_page_img/slide_photo_3.jpg'
+                '/project_page_img/slide_photo_1.jpg', 
+                '/project_page_img/slide_photo_2.jpg', 
+                '/project_page_img/slide_photo_3.jpg'
             ]
         },
         {
@@ -168,9 +168,9 @@ export const useArticleStore = defineStore('articleStore', () => {
             title: 'Заголовок',
             content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, tenetur assumenda voluptates mollitia consectetur dolore id beatae explicabo corporis ab corrupti natus qui perferendis? Suscipit debitis laboriosam aperiam ad modi.',
             images: [
-                '../public/project_page_img/slide_photo_1.jpg', 
-                '../public/project_page_img/slide_photo_2.jpg', 
-                '../public/project_page_img/slide_photo_3.jpg'
+                '/project_page_img/slide_photo_1.jpg', 
+                '/project_page_img/slide_photo_2.jpg', 
+                '/project_page_img/slide_photo_3.jpg'
             ]
         },
         {
@@ -178,9 +178,9 @@ export const useArticleStore = defineStore('articleStore', () => {
             title: 'Заголовок',
             content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, tenetur assumenda voluptates mollitia consectetur dolore id beatae explicabo corporis ab corrupti natus qui perferendis? Suscipit debitis laboriosam aperiam ad modi.',
             images: [
-                '../public/project_page_img/slide_photo_1.jpg', 
-                '../public/project_page_img/slide_photo_2.jpg', 
-                '../public/project_page_img/slide_photo_3.jpg'
+                '/project_page_img/slide_photo_1.jpg', 
+                '/project_page_img/slide_photo_2.jpg', 
+                '/project_page_img/slide_photo_3.jpg'
             ]
         },
         {
@@ -188,9 +188,9 @@ export const useArticleStore = defineStore('articleStore', () => {
             title: 'Заголовок',
             content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, tenetur assumenda voluptates mollitia consectetur dolore id beatae explicabo corporis ab corrupti natus qui perferendis? Suscipit debitis laboriosam aperiam ad modi.',
             images: [
-                '../public/project_page_img/slide_photo_1.jpg', 
-                '../public/project_page_img/slide_photo_2.jpg', 
-                '../public/project_page_img/slide_photo_3.jpg'
+                '/project_page_img/slide_photo_1.jpg', 
+                '/project_page_img/slide_photo_2.jpg', 
+                '/project_page_img/slide_photo_3.jpg'
             ]
         },
         {
@@ -198,9 +198,9 @@ export const useArticleStore = defineStore('articleStore', () => {
             title: 'Заголовок',
             content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, tenetur assumenda voluptates mollitia consectetur dolore id beatae explicabo corporis ab corrupti natus qui perferendis? Suscipit debitis laboriosam aperiam ad modi.',
             images: [
-                '../public/project_page_img/slide_photo_1.jpg', 
-                '../public/project_page_img/slide_photo_2.jpg', 
-                '../public/project_page_img/slide_photo_3.jpg'
+                '/project_page_img/slide_photo_1.jpg', 
+                '/project_page_img/slide_photo_2.jpg', 
+                '/project_page_img/slide_photo_3.jpg'
             ]
         },
         {
@@ -208,9 +208,9 @@ export const useArticleStore = defineStore('articleStore', () => {
             title: 'Заголовок',
             content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, tenetur assumenda voluptates mollitia consectetur dolore id beatae explicabo corporis ab corrupti natus qui perferendis? Suscipit debitis laboriosam aperiam ad modi.',
             images: [
-                '../public/project_page_img/slide_photo_1.jpg', 
-                '../public/project_page_img/slide_photo_2.jpg', 
-                '../public/project_page_img/slide_photo_3.jpg'
+                '/project_page_img/slide_photo_1.jpg', 
+                '/project_page_img/slide_photo_2.jpg', 
+                '/project_page_img/slide_photo_3.jpg'
             ]
         },
         {
@@ -218,9 +218,9 @@ export const useArticleStore = defineStore('articleStore', () => {
             title: 'Заголовок',
             content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, tenetur assumenda voluptates mollitia consectetur dolore id beatae explicabo corporis ab corrupti natus qui perferendis? Suscipit debitis laboriosam aperiam ad modi.',
             images: [
-                '../public/project_page_img/slide_photo_1.jpg', 
-                '../public/project_page_img/slide_photo_2.jpg', 
-                '../public/project_page_img/slide_photo_3.jpg'
+                '/project_page_img/slide_photo_1.jpg', 
+                '/project_page_img/slide_photo_2.jpg', 
+                '/project_page_img/slide_photo_3.jpg'
             ]
         },
         {
@@ -228,9 +228,9 @@ export const useArticleStore = defineStore('articleStore', () => {
             title: 'Заголовок',
             content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, tenetur assumenda voluptates mollitia consectetur dolore id beatae explicabo corporis ab corrupti natus qui perferendis? Suscipit debitis laboriosam aperiam ad modi.',
             images: [
-                '../public/project_page_img/slide_photo_1.jpg', 
-                '../public/project_page_img/slide_photo_2.jpg', 
-                '../public/project_page_img/slide_photo_3.jpg'
+                '/project_page_img/slide_photo_1.jpg', 
+                '/project_page_img/slide_photo_2.jpg', 
+                '/project_page_img/slide_photo_3.jpg'
             ]
         },
         {
@@ -238,9 +238,9 @@ export const useArticleStore = defineStore('articleStore', () => {
             title: 'Заголовок',
             content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, tenetur assumenda voluptates mollitia consectetur dolore id beatae explicabo corporis ab corrupti natus qui perferendis? Suscipit debitis laboriosam aperiam ad modi.',
             images: [
-                '../public/project_page_img/slide_photo_1.jpg', 
-                '../public/project_page_img/slide_photo_2.jpg', 
-                '../public/project_page_img/slide_photo_3.jpg'
+                '/project_page_img/slide_photo_1.jpg', 
+                '/project_page_img/slide_photo_2.jpg', 
+                '/project_page_img/slide_photo_3.jpg'
             ]
         }
     ]);
