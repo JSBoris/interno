@@ -10,7 +10,7 @@
     <BannerPages 
     :showIntro="true"
     bannerTitle="Статьи & <br> Новости"
-    bannerImage="/public/img/nb_Banner.jpg"
+    bannerImage="/img/nb_Banner.jpg"
     />
     <articlesNewsMain />
     <Footer />

@@ -72,12 +72,9 @@ const goToProjectDetails = (id) => {
         </div>
 
         <div class="project_cards">
-            <Card v-for="card in paginatedCards" 
-            @click="goToProjectDetails(card.id)" 
-            :key="card.id" 
-            :category="card.category" 
-            :image="card.image"
-            :description="card.description" :title="card.title" :date="card.date" :link="card.link" />
+            <Card v-for="card in paginatedCards" @click="goToProjectDetails(card.id)" :key="card.id"
+                :category="card.category" :image="card.image" :description="card.description" :title="card.title"
+                :date="card.date" :link="card.link" />
         </div>
 
         <div class="project_pagination">
